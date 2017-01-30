@@ -356,7 +356,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 31.0, 195.0, 94.0, 22.0 ],
 					"style" : "",
-					"text" : "128.61.18.154"
+					"text" : "128.61.120.51"
 				}
 
 			}
@@ -391,7 +391,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"items" : [ "utun0", ",", "en1", ",", "lo0" ],
+					"items" : [ "awdl0", ",", "en0", ",", "lo0" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -655,6 +655,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-93", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-72", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-81", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -727,15 +736,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-93", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-87", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-93", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -773,7 +773,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "zk.granular2.maxpat",
-				"bootpath" : "~/Documents/Max 7/zach/tech_ensemble/example_1_leaf",
+				"bootpath" : "~/Documents/Max 7/tech_ensemble/example_1_leaf",
 				"type" : "JSON",
 				"implicit" : 1
 			}
